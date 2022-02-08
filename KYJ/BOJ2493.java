@@ -29,7 +29,7 @@ public class BOJ2493 {
 			if (tops.isEmpty()) {
 				sb.append("0 ");
 			}
-
+			// int 배열을 stack에 push
 			tops.push(new int[] { i, v });
 		}
 		
