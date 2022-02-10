@@ -207,6 +207,7 @@ replay_pid*
 .DS_Store
 .AppleDouble
 .LSOverride
+*/DS_Store
 
 # Icon must end with two \r
 Icon
@@ -256,5 +257,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# End of https://www.toptal.com/developers/gitignore/api/eclipse,intellij,windows,macos,java
