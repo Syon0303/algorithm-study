@@ -56,6 +56,8 @@ public class Main {
 				stack.push(arr2[index]);
 				break;
 			}
+
+
 		}
 		System.out.printf("%.2f",stack.pop()); //소수점 두자리까지 출력
 	}
