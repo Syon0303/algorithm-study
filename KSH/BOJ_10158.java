@@ -21,11 +21,11 @@ public class BOJ_10158 {
 		int resX = 0;
 		int resY = 0;
 		
-		if(x%2 == 0)	resX =     (p+t) % w;
-		else			resX = w - (p+t) % w;
+		if(x%2 == 0) resX = (p+t) % w;
+		else resX = w - (p+t) % w;
 		
-		if(y%2 == 0)	resY =     (q+t) % h;
-		else	 		resY = h - (q+t) % h;
+		if(y%2 == 0) resY = (q+t) % h;
+		else resY = h - (q+t) % h;
 		
 		System.out.println(resX + " " + resY);
 	}
