@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// 개미, 실버 4, 40분
+// 개미, 실버 4, 40분 
 public class BOJ_10158 {
 
 	public static void main(String[] args) {
