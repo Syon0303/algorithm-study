@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 /***
  * @author us13579
- * @since 2022-03-03, 15분
+ * @since 2022-03-03, 20분
  * @title 01타일
  */
 
@@ -26,9 +26,9 @@ public class BOJ_S3_1904 {
             for (int i = 2; i < N; i++) {
                 arr[i] = (arr[i - 1] + arr[i - 2]) % 15746;
             }
+            System.out.println(arr[N-1]);
         }
 
-        System.out.println(arr[N-1]);
 
     }
 }
