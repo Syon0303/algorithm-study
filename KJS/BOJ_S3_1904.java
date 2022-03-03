@@ -22,8 +22,10 @@ public class BOJ_S3_1904 {
         if(N>1) arr[1] = 2;
         if(N<=2) System.out.println(arr[N-1]);
 
-        for (int i = 2; i < N; i++) {
-            arr[i] = (arr[i-1]+ arr[i-2]) % 15746;
+        else {
+            for (int i = 2; i < N; i++) {
+                arr[i] = (arr[i - 1] + arr[i - 2]) % 15746;
+            }
         }
 
         System.out.println(arr[N-1]);
